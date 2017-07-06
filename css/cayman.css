@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -18,17 +18,18 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(0, 0, 0, 0.8);
+  background-color: yellow;
+  border-color: rgba(0, 0, 0, 0.2);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
+  font-weight: bold;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: yellow;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.75);
     border-color: rgba(255, 255, 255, 0.3); }
   .btn + .btn {
     margin-left: 1rem; }
@@ -43,44 +44,49 @@ a {
     .btn {
       display: block;
       width: 100%;
-      padding: 0.75rem;
+      padding: 0.5rem;
       font-size: 0.9rem; }
       .btn + .btn {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         margin-left: 0; } }
 
+
 .page-header {
-  color: #fff;
+  color: #505050;
+  font-family: "Montserrat";
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-position-x: center;
+  background-image: url("/home/theo/Documents/Aliapur.github.io-master/BanniereSite.jpg"); }
   @media screen and (min-width: 64em) {
     .page-header {
-      padding: 5rem 6rem; } }
+      padding: 3rem 6rem 5rem 6rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header {
-      padding: 3rem 4rem; } }
+      padding: 3rem 8rem 8rem 3rem; } }
   @media screen and (max-width: 42em) {
     .page-header {
-      padding: 2rem 1rem; } }
+      padding: 0rem 1rem; } }
 
 .project-name {
-  margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0rem; }
   @media screen and (min-width: 64em) {
     .project-name {
-      font-size: 3.25rem; } }
+      margin-top: 0rem;
+      font-size: 3rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .project-name {
+      margin-top: 0rem;
       font-size: 2.25rem; } }
   @media screen and (max-width: 42em) {
     .project-name {
+      margin-top: 1rem;
       font-size: 1.75rem; } }
 
 .project-tagline {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: normal;
-  opacity: 0.7; }
+  opacity: 0.85; }
   @media screen and (min-width: 64em) {
     .project-tagline {
       font-size: 1.25rem; } }
@@ -117,10 +123,11 @@ a {
   .main-content h4,
   .main-content h5,
   .main-content h6 {
+    font-family: "Montserrat";
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957; }
+    color: #505050; }
   .main-content p {
     margin-bottom: 1em; }
   .main-content code {
@@ -213,16 +220,20 @@ a {
       padding: 0;
       margin-bottom: 1rem; }
   .main-content hr {
-    height: 2px;
+    height: 3px;
+    width: 30%;
+    text-align: center;
     padding: 0;
     margin: 1rem 0;
-    background-color: #eff0f1;
+    color: yellow;
+    background-color: yellow;
     border: 0; }
 
 .site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  padding: 4rem;
+  background-size: auto;
+  background-image: url("/home/theo/Documents/15marches/Aliapur/BanniereSite.jpg");
+}
   @media screen and (min-width: 64em) {
     .site-footer {
       font-size: 1rem; } }
