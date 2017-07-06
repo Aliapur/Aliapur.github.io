@@ -57,7 +57,7 @@ a {
   text-align: center;
   background-color: #159957;
   background-position-x: center;
-  background-image: url("/home/theo/Documents/Aliapur.github.io-master/BanniereSite.jpg"); }
+  background-image: url("../BanniereSite.jpg"); }
   @media screen and (min-width: 64em) {
     .page-header {
       padding: 3rem 6rem 5rem 6rem; } }
@@ -232,7 +232,7 @@ a {
 .site-footer {
   padding: 4rem;
   background-size: auto;
-  background-image: url("/home/theo/Documents/15marches/Aliapur/BanniereSite.jpg");
+  background-image: url("../BanniereSite.jpg");
 }
   @media screen and (min-width: 64em) {
     .site-footer {
