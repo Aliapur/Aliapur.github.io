@@ -245,13 +245,10 @@ a {
 
 .site-footer {
   color: #505050;
-  padding: 4rem;
+  padding: 1rem;
   background-size: auto;
   background-repeat: no-repeat;
-  background-size:auto;
   background-color: white;
-  background-position-x: center;
-  background-image: url("../BanniereSite.jpg");
 }
   @media screen and (min-width: 64em) {
     .site-footer {
